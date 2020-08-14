@@ -56,7 +56,7 @@ namespace FasterGames
                     CharacterBody body = obj.GetComponent<CharacterBody>();
                     if (body)
                     {
-                        body.baseMoveSpeed = 10f; // Default is 7
+                        body.baseMoveSpeed = 20f; // Default is 7
                     } 
                     else
                     {
